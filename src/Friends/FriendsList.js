@@ -1,4 +1,4 @@
-import Friend from './Ffdfriend.js';
+import Friend from './Friend.js';
 const FriendList = ({ friends }) => (
   <>
     <ul className="friend-list">
