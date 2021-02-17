@@ -8,5 +8,5 @@ const Transaction = ({ items }) => (
       </tr>
     ))}
   </>
-);
+);))))()
 export default Transaction;
