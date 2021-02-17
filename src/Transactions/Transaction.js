@@ -1,4 +1,4 @@
-const Transaction = ({ items }) => (
+const Transactiomkln = ({ items }) => (
   <>
     {items.map(({ id, type, amount, currency }) => (
       <tr key={id}>
@@ -8,5 +8,5 @@ const Transaction = ({ items }) => (
       </tr>
     ))}
   </>
-);))))()
+);
 export default Transaction;
