@@ -1,4 +1,4 @@
-const Transactiomkln = ({ items }) => (
+const Transaction = ({ items }) => (
   <>
     {items.map(({ id, type, amount, currency }) => (
       <tr key={id}>
