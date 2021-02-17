@@ -1,4 +1,4 @@
-import Transaction from '';
+import Transaction from './Transactions';
 const TransactionHistory = ({ items }) => (
   <>
     <table className="transaction-history">

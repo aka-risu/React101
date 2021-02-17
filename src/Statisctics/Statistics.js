@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 const Statistics = ({ title, stats }) => (
   <>
     <section className="statistics">
@@ -15,13 +15,13 @@ const Statistics = ({ title, stats }) => (
   </>
 );
 Statistics.defaultProps = {
-  title: "Upload stats",
+  title: 'Upload stats',
 };
 Statistics.propTypes = {
   stats: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
-    })
+    }),
   ).isRequired,
 };
 export default Statistics;
